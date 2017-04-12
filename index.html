@@ -16,15 +16,19 @@
         <link rel="icon" type="image/png" href="static/img/dynaWeb.png">
 
         <!-- Bootstrap -->
-        <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="static/vendor/css/bootstrap.min.css">
 
         <!-- Fontawesome -->
-        <link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="static/vendor/css/font-awesome.min.css">
 
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="static/css/style.css">
 
-        <title>dynaWeb - Simple, Clean and Responsive Website to find your Hobbies</title>
+        <!-- Responsive -->
+        <link rel="stylesheet" type="text/css" href="static/css/responsive.css">
+
+
+        <title>dynaWeb - Modern Responsive WebApp to find your Hobbies</title>
 
     </head>
 
@@ -50,8 +54,9 @@
                     <span class="icon-bar"></span>
                   </button>
                   <a class="navbar-brand" href="#">
-                    <!-- Small Size Logo -->
-                    <img src="#" alt="logo">
+        
+                    <h2 id='logo'>dynaWeb</h2>
+
                   </a>
                 </div>
 
@@ -60,8 +65,8 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#HOME" class="nav-item">HOME</a></li>
                         <li><a href="#ABOUT" class="nav-item">ABOUT</a></li>
-                        <li><a href="#HOBBIES" class="nav-item">HOBBIES</a></li>
                         <li><a href="#TESTIMONIALS" class="nav-item">TESTIMONIALS</a></li>
+                        <li><a href="#HOBBIES" class="nav-item">HOBBIES</a></li>
                         <li><a href="#DOWNLOAD" class="nav-item">DOWNLOAD</a></li>
                         <li><a href="#CONTACT" class="nav-item">CONTACT</a></li>
                     </ul>
@@ -99,7 +104,7 @@
                             <div class="header-text">
 
                                 <!-- Tittle & Description -->
-                                <h1>A clean and modern looking responsive website</h1>
+                                <h1>A modern responsive WebApp</h1>
 
                                 <p>Find cool hobbies with dynaWeb<p/>
 
@@ -120,7 +125,7 @@
                             <div class="header-iphone">
 
                                 <!-- Header iPhone -->
-                                <img src="static/img/iphone-header.png" alt="
+                                <img class='img-responsive' src="static/img/iphone-header.png" alt="
                                 Header iPhone">
 
                             </div>
@@ -150,7 +155,7 @@
                         <div class="section-tittle">
 
                             <h2>About us</h2>
-                            <p> More about us ...</p>
+                            <p> We want to help you find a new hobby. We will provide you information about your hobby, and inform you of MeetUp events.</p>
 
 
                         </div>
@@ -165,7 +170,7 @@
 
                                         <!-- About iPhone -->
                                         <div class="about-iPhone">
-                                            <img src="static/img/iphone-header.png" alt="cooking">
+                                            <img class='img-responsive' src="static/img/iphone-header.png" alt="cooking">
 
                                         </div>
 
@@ -177,7 +182,7 @@
                                         <div class="choose-us-tittle">
 
                                             <h2>Why Choose us?</h2>
-                                            <p>why us.....</p>
+                                            <p>We make your life interesting.</p>
 
                                         </div>
 
@@ -191,8 +196,8 @@
                                                 <div><i class="fa fa-comments"></i></div>
 
                                                 <!-- Choose us item tittle & description -->
-                                                <h3>Desctip 1</h3>
-                                                <p>WHy desc 1</p>
+                                                <h3>Information</h3>
+                                                <p>Find information about your hobby.</p>
 
 
                                             </div>
@@ -205,8 +210,8 @@
                                                 <div><i class="fa fa-users"></i></div>
 
                                                 <!-- Choose us item tittle & description -->
-                                                <h3>Desctip 2</h3>
-                                                <p>WHy desc 2</p>
+                                                <h3>Friends</h3>
+                                                <p>Meet and share with people who have the same interests as you.</p>
 
 
                                             </div>
@@ -219,8 +224,8 @@
                                                 <div><i class="fa fa-meetup"></i></div>
 
                                                 <!-- Choose us item tittle & description -->
-                                                <h3>Desctip 3</h3>
-                                                <p>WHy desc 3</p>
+                                                <h3>Events</h3>
+                                                <p>Join awesome events to learn more about your hobby.</p>
 
 
                                             </div>
@@ -259,7 +264,7 @@
 
                         <div class="col-md-12">
 
-                            <div id="carousel-testimonial" class="carousel slide" data-ride="carousel" data-interval="500">
+                            <div id="carousel-testimonial" class="carousel slide" data-ride="carousel" data-interval="5000">
 
 
                                 <!-- indicators -->
@@ -275,13 +280,13 @@
                                     <!-- item 1 -->
                                     <div class="item active text-center">
 
-                                        <img src="static/img/camping.jpg" alt="testimonial" class="center-block">
+                                        <img src="static/img/client2.jpeg" alt="testimonial" class="center-block">
 
                                         <div class="testimonial-caption">
 
-                                            <h2>contact 1</h2>
-                                            <h4><span>engineer</span>gyms</h4>
-                                            <p>about him</p>
+                                            <h2>Javier M.</h2>
+                                            <h4><span>Technical Writter</span> IQ Tech </h4>
+                                            <p>When I am not at work you can find me hiking and taking pictures.</p>
 
                                         </div>
 
@@ -290,13 +295,13 @@
                                     <!-- item 2 -->
                                     <div class="item text-center">
 
-                                        <img src="static/img/knitting.jpg" alt="testimonial" class="center-block">
+                                        <img src="static/img/client3.jpeg" alt="testimonial" class="center-block">
 
                                         <div class="testimonial-caption">
 
-                                            <h2>contact 2</h2>
-                                            <h4><span>Sr. manager</span> IT</h4>
-                                            <p>about him</p>
+                                            <h2>Jesse G.</h2>
+                                            <h4><span> Marketing Manager</span> H.O.P.E. </h4>
+                                            <p>Jesse likes to run marathons and travel around Asia.</p>
 
                                         </div>
 
@@ -305,13 +310,13 @@
                                     <!-- item 3 -->
                                     <div class="item text-center">
 
-                                        <img src="static/img/carnival.jpeg" alt="testimonial" class="center-block">
+                                        <img src="static/img/client4.jpeg" alt="testimonial" class="center-block">
 
                                         <div class="testimonial-caption">
 
-                                            <h2>contact 3</h2>
-                                            <h4><span>Sr. Softeare engineer</span> blue gyms</h4>
-                                            <p>about him</p>
+                                            <h2>Mei Mei Yang</h2>
+                                            <h4><span>Fashion Designer</span> Blues</h4>
+                                            <p>Mei Mei is an animal welfare activist, and loves to try different kinds of cuisine.</p>
 
                                         </div>
 
@@ -344,7 +349,7 @@
 
                             <h2> Hobbies </h2>
 
-                            <p> Different hobbies </p>
+                            <p> Time to explore</p>
 
                         </div>
 
@@ -376,7 +381,7 @@
                                 <div>
 
                                     <h3>Programming</h3>
-                                    <p>code code code</p>
+                                    <p>Code Code Code..., It works, NO I found a BUG! </p>
 
                                 </div>
 
@@ -388,7 +393,7 @@
                                 <!-- Icon -->
                                 <div class="left-feature-item-icon">
 
-                                    <i class="fa fa-mobile"></i>
+                                    <i class="fa fa-music"></i>
 
                                 </div>
 
@@ -396,7 +401,7 @@
                                 <div>
 
                                     <h3>Dancing</h3>
-                                    <p>Dance code code</p>
+                                    <p>Salsa Dance or Swing Dance?</p>
 
                                 </div>
                                 
@@ -408,7 +413,7 @@
                                 <!-- Icon -->
                                 <div class="left-feature-item-icon">
 
-                                    <i class="fa fa-comments"></i>
+                                    <i class="fa fa-cutlery"></i>
 
                                 </div>
 
@@ -416,7 +421,7 @@
                                 <div>
 
                                     <h3>Cooking</h3>
-                                    <p>Yum code code</p>
+                                    <p>Time to do some experiments in the kitchen</p>
 
                                 </div>
                                 
@@ -428,7 +433,7 @@
 
                             <div class="hobbies-iphone">
 
-                                <img src="static/img/iphone-header.png" alt="Hobbies App on iPhone.">
+                                <img class='img-responsive' src="static/img/iphone-header.png" alt="Hobbies App on iPhone.">
 
                             </div>
 
@@ -442,15 +447,15 @@
                                 <!-- Icon -->
                                 <div class="right-feature-item-icon">
 
-                                    <i class="fa fa-desktop"></i>
+                                    <i class="fa fa-paint-brush"></i>
 
                                 </div>
 
                                 <!-- Hobby item tittle & description -->
                                 <div>
 
-                                    <h3>Cooking</h3>
-                                    <p>code code code</p>
+                                    <h3>Painting</h3>
+                                    <p>I feel creative today!</p>
 
                                 </div>
 
@@ -462,7 +467,7 @@
                                 <!-- Icon -->
                                 <div class="right-feature-item-icon">
 
-                                    <i class="fa fa-mobile"></i>
+                                    <i class="fa fa-microphone"></i>
 
                                 </div>
 
@@ -470,7 +475,7 @@
                                 <div>
 
                                     <h3>Singing</h3>
-                                    <p>Dance code code</p>
+                                    <p>Sing like no one is paying attention.</p>
 
                                 </div>
                                 
@@ -482,7 +487,7 @@
                                 <!-- Icon -->
                                 <div class="right-feature-item-icon">
 
-                                    <i class="fa fa-comments"></i>
+                                    <i class="fa fa-plane"></i>
 
                                 </div>
 
@@ -490,7 +495,7 @@
                                 <div>
 
                                     <h3>Skydiving</h3>
-                                    <p>Yum code code</p>
+                                    <p>Who said heights? I am in!</p>
 
                                 </div>
 
@@ -516,7 +521,7 @@
 
                     <div class="col-md-9">
 
-                        <p> why purchase</p>
+                        <p> Do you like what you have seen so far? Join us with you only with one click.</p>
 
                     </div>
 
@@ -532,70 +537,6 @@
 
         </section>
 
-
-        <!-- Screens -->
-        <section class="screens" id="SCREENS">
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-md-10 col-md-offset-1">
-
-                        <div class="section-tittle">
-
-                            <h2> Screens </h2>
-                            <p> Lots of screens </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="screen-slider">
-
-                <div class="carousel">
-
-
-                    <!-- item 1 -->
-                    <div class="item">
-
-                        <img src="static/img/iphone-header.png" width="60" height="60" alt="screen">
-
-                    </div>
-
-
-                    <!-- item 2 -->
-                    <div class="item">
-
-                        <img src="static/img/iphone-header.png" width="60" height="60" alt="screen">
-
-                    </div>
-
-
-                    <!-- item 3 -->
-                    <div class="item">
-
-                        <img src="static/img/iphone-header.png" width="60" height="60" alt="screen">
-
-                    </div>
-
-
-                    <!-- item 4 -->
-                    <div class="item">
-
-                        <img src="static/img/iphone-header.png" width="60" height="60" alt="screen">
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
 
         <!-- Counters -->
 
@@ -613,7 +554,7 @@
                             <div class="counter-item">
 
                                 <div><i class=" fa fa-cloud-download"></i></div>
-                                <h2><span class="counter-num"> 1588 </span><span> + </span></h2>
+                                <h2><span class="counter-num"> 1508 </span><span> + </span></h2>
                                 <p>Dowloads</p>
 
                             </div>
@@ -626,7 +567,7 @@
                             <div class="counter-item">
 
                                 <div><i class=" fa fa-gift"></i></div>
-                                <h2><span class="counter-num"> 3500 </span><span> + </span></h2>
+                                <h2><span class="counter-num"> 500 </span><span> + </span></h2>
                                 <p>Awards</p>
 
                             </div>
@@ -639,7 +580,7 @@
                             <div class="counter-item">
 
                                 <div><i class=" fa fa-heart-o"></i></div>
-                                <h2><span class="counter-num"> 199 </span><span> + </span></h2>
+                                <h2><span class="counter-num"> 1199 </span><span> + </span></h2>
                                 <p>Likes</p>
 
                             </div>
@@ -652,7 +593,7 @@
                             <div class="counter-item">
 
                                 <div><i class=" fa fa-check"></i></div>
-                                <h2><span class="counter-num"> 1066 </span><span> + </span></h2>
+                                <h2><span class="counter-num"> 1086 </span><span> + </span></h2>
                                 <p>Recommended</p>
 
                             </div>
@@ -680,7 +621,7 @@
                         <div class="section-tittle">
 
                             <h2>Download Now</h2>
-                            <p>Why you should download</p>
+                            <p>Fast and Easy</p>
 
                         </div>
 
@@ -720,7 +661,7 @@
                         <div class="available-tittle">
 
                             <h2>Available On</h2>
-                            <p>Where </p>
+                            <p> You can find us on these app stores </p>
 
                         </div>
 
@@ -815,7 +756,7 @@
                         <div class="section-tittle">
 
                             <h2>Contact Us</h2>
-                            <p> jsdhfakshfasjh;dkj</p>
+                            <p> We would love to hear more from you.</p>
 
                         </div>
 
@@ -907,7 +848,7 @@
 
                         <div class="scroll-top">
 
-                            <a href="#HOME"><i class="fa fa-angle-up"></i></a>
+                            <a href="#HOME" id='scroll-to-top'><i class="fa fa-angle-up"></i></a>
                         
                         </div>
                         
@@ -926,13 +867,17 @@
 
 
          <!-- Bootstrap JavaScript needs to be at the bottom of the body to increase speed and responsiveness of website.-->
-        <script src"static/js/jquery-3.2.0.js"></script>
-       <!-- <script src"static/js/bootstrap.min.js"></script>
-        <script src"static/js/animation.js"></script> -->
+        <script src"static/vendor/js/jquery-3.2.0.js"></script>
+       
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- Add JS Counter -->
+        <script src="static/vendor/js/jquery.counterup.min.js"></script>
+        <script src="static/vendor/js/jquery.waypoints.min.js"></script>
+
         <!-- Custom JS -->
-        <script type="js/custom.js"></script>
+        <script src="static/js/custom.js"></script>
 
     </body>
 

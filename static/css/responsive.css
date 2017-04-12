@@ -1,0 +1,56 @@
+/* Small Devices */
+@media only screen and (max-width: 767px) {
+    .navbar-default {
+        background-color: #fff !important;
+        border-color: #e6e6e6;
+    }
+
+    .about-iPhone img {
+        width: 100%;
+        margin-top: -70px;
+        margin-bottom: 50px;
+    }
+
+    .purchase-now .col-md-3 {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .choose-us-wrapper {
+        text-align: center;
+    }
+
+    .choose-us-item {
+        margin-left: 30px;
+    }
+
+}
+
+/* Small Devices and Tablets */
+@media only screen and (max-width: 768px) {
+    
+    .header-iphone {
+        display: none;
+    }
+
+    .header-text, .header-btns {
+        text-align: center;
+    }
+}
+
+/* Medium Devices, Desktop */
+@media only screen and (max-width: 992px) {
+    
+    .hobbies-iphone img, .download-now img, .header-iphone img {
+        margin-bottom: 50px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+    .hobbies-iphone img, .download-now img, .header-iphone img {
+        margin-bottom: 50px;
+    }
+    
+}
